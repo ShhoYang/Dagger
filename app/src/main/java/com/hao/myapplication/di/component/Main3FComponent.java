@@ -1,9 +1,7 @@
 package com.hao.myapplication.di.component;
 
-import com.hao.myapplication.di.module.Main3FModule;
 import com.hao.myapplication.ui.Main3Fragment;
 
-import dagger.Component;
 import dagger.Subcomponent;
 
 /**

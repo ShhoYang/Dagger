@@ -40,7 +40,7 @@ public class Main3Fragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //该Fragment的Component继承于它的Activity的Component，所以要从Activity那里拿到Component
+        //该Fragment的Component用了Subcomponent
         Main3Component main3Component = ((Main3Activity) getActivity()).getMain3Component();
         main3Component.MAIN_3_F_COMPONENT().inject(this);
         Log.d(TAG, "onViewCreated: retrofit = " + retrofit.hashCode());
